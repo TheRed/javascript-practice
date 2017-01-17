@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Googleメニュー</title>
+    <link rel="stylesheet" href="google.css">
+</head>
+
+<body>
+    <h1>Googleメニュー</h1>
+    <div id="search">
+        <input type="text" value="">
+        <button id="tool">ツール</button>
+    </div>
+    <div id="filter" class="menu">
+        <select id="lang" name="lang">
+            <option>すべての言語</option>
+            <option>日本語のページを検索</option>
+        </select>
+        <select id="span" name="span">
+            <option>期間指定なし</option>
+            <option>1時間以内</option>
+            <option>24時間以内</option>
+            <option>1週間以内</option>
+            <option>1か月以内</option>
+            <option>1年以内</option>
+            <option>期間を指定</option>
+        </select>
+        <select id="match" name="match">
+            <option>すべての結果</option>
+            <option>完全一致</option>
+        </select>
+    </div>
+    <div id="count" class="menu">
+        約 621,000 件 （0.25 秒）
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="google.js"></script>
+</body>
+
+</html>
